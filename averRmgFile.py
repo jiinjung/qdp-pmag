@@ -24,7 +24,7 @@ def makeAvgdf(df, start, last):
 
     if (new_df[' '] == 'UAFX1').any() :
         new_df[' '] = 'AF'
-    elif (new_df[' '] == 'UAX1').any():
+    elif (new_df[' '] == 'UAFX2').any():
         new_df[' '] = 'AF'
 
     print("I found levels of and each corresponding level has counts of")
